@@ -1,0 +1,79 @@
+{
+  "brand": {
+    "name": "Smerfiki",
+    "eyebrow": "3 placówki · Gdynia · Gdańsk · wkrótce nowa lokalizacja",
+    "tagline": "Blisko dziecka. Blisko rodziny.",
+    "description": "Smerfiki to ciepłe, bezpieczne miejsca, w których najmłodsi poznają świat przez zabawę, relacje i codzienne odkrywanie. Dziś działamy w Gdyni i Gdańsku, a już wkrótce otwieramy trzecią placówkę.",
+    "announcement": "Smerfiki rosną — trzecia placówka już wkrótce"
+  },
+  "contact": {
+    "phone1": "507 105 269",
+    "phone2": "696 416 666",
+    "email": "zlobeksmerfiki@wp.pl",
+    "recruitmentEmail": "rekrutacja@zlobeksmerfiki.pl",
+    "hours": "Pon.–Pt. 7:00–17:00"
+  },
+  "locations": [
+    {
+      "name": "Smerfiki Gdynia",
+      "city": "Gdynia",
+      "address": "Benisławskiego 12/1, 81-173 Gdynia",
+      "status": "open",
+      "badge": "Placówka działa",
+      "description": "Kameralna placówka Smerfików w Gdyni. Zapytaj o dostępność miejsc i umów wizytę.",
+      "map": "https://www.google.com/maps/search/?api=1&query=Benis%C5%82awskiego+12%2F1+81-173+Gdynia",
+      "page": "/placowki/gdynia/"
+    },
+    {
+      "name": "Smerfiki Gdańsk",
+      "city": "Gdańsk",
+      "address": "Przytulna 5, 80-176 Gdańsk",
+      "status": "open",
+      "badge": "Placówka działa",
+      "description": "Smerfiki w Gdańsku — bezpieczna opieka, rozwój i codzienna dawka dobrej zabawy.",
+      "map": "https://www.google.com/maps/search/?api=1&query=Przytulna+5+80-176+Gda%C5%84sk",
+      "page": "/placowki/gdansk/"
+    },
+    {
+      "name": "Nowe Smerfiki",
+      "city": "Nowa placówka",
+      "address": "Lokalizacja zostanie ogłoszona wkrótce",
+      "status": "soon",
+      "badge": "Otwarcie wkrótce",
+      "description": "Pracujemy nad otwarciem trzeciej placówki. Zostaw kontakt, a poinformujemy Cię o lokalizacji i rozpoczęciu zapisów.",
+      "map": "#kontakt",
+      "page": "/placowki/nowa-placowka/"
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Bezpieczeństwo przede wszystkim",
+      "text": "Doświadczony zespół, regularne szkolenia i codzienna uważność na potrzeby najmłodszych."
+    },
+    {
+      "icon": "apple",
+      "title": "Zdrowe posiłki",
+      "text": "Dbamy o wartościowe, smaczne posiłki dopasowane do potrzeb rozwijających się dzieci."
+    },
+    {
+      "icon": "blocks",
+      "title": "Przemyślana przestrzeń",
+      "text": "Nowoczesne wyposażenie i pomoce dydaktyczne wspierają samodzielność, ruch i ciekawość świata."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Nauka przez zabawę",
+      "text": "Zabawy sensoryczne i twórcze aktywności wspierają rozwój motoryczny, poznawczy i społeczny."
+    }
+  ],
+  "about": {
+    "title": "Jedna filozofia. Trzy miejsca blisko rodziny.",
+    "text": "Smerfiki rozwijają się razem z rodzinami, które nam zaufały. W każdej placówce chcemy zachować tę samą ciepłą atmosferę, wysokie standardy opieki i otwartą komunikację z rodzicami — niezależnie od lokalizacji.",
+    "quote": "Chcemy, by każde dziecko czuło się u nas bezpiecznie, zauważone i gotowe do odkrywania świata."
+  },
+  "recruitment": {
+    "title": "Szukasz miejsca dla swojego dziecka?",
+    "text": "Wybierz placówkę i zostaw kontakt. Odpowiemy na pytania dotyczące wolnych miejsc, adaptacji, organizacji dnia i nowej lokalizacji."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "date": "2026-09-01",
+      "category": "Rekrutacja",
+      "title": "Rekrutacja jest otwarta",
+      "excerpt": "Zapraszamy rodziców do kontaktu w sprawie wolnych miejsc w naszych placówkach w Gdyni i Gdańsku."
+    },
+    {
+      "date": "2026-08-20",
+      "category": "Smerfikowy dzień",
+      "title": "Codziennie jest coś do odkrycia",
+      "excerpt": "Sensoryka, ruch, muzyka i twórcza zabawa — tak budujemy ciekawość świata u najmłodszych."
+    },
+    {
+      "date": "2026-08-01",
+      "category": "Dla rodziców",
+      "title": "Pierwsze dni w żłobku",
+      "excerpt": "Spokojna adaptacja zaczyna się od relacji. Porozmawiaj z nami o tym, jak przygotować dziecko do nowego miejsca."
+    }
+  ]
+}
