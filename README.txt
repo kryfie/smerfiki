@@ -77,3 +77,22 @@ AKTUALIZACJA 13.10.2026 — v3
 - EN: contact-en oraz odpowiednie formularze oddziałów z sufiksem -en.
 - Po wysłaniu formularza użytkownik trafia na własną stronę podziękowania.
 - Netlify zaleca regularne zarządzanie i usuwanie zgłoszeń zawierających dane osobowe.
+
+
+AKTUALIZACJA v5 13.10.2026
+- Poprawiono sciezki CSS dla /en/ i wszystkich angielskich podstron.
+- Angielska wersja uzywa teraz wspolnego /styles.css tak jak polska.
+- Szary pasek/ikonka widoczna na Deploy Preview nie jest elementem strony ani cookies; to interfejs Netlify Deploy Preview (Drawer).
+- Na produkcyjnym adresie po merge do main Netlify Drawer nie jest czescia strony.
+
+
+AKTUALIZACJA 13.10.2026 — COOKIES
+- Dodano osobną Politykę cookies PL i Cookie Policy EN oraz linki w stopkach.
+- Nie dodano banera zgody cookies, ponieważ obecna wersja nie używa analityki, reklam, pikseli ani osadzonych usług wymagających zgody.
+- Jeśli później pojawi się Google Analytics, Meta Pixel, YouTube embed, osadzona mapa itp., należy wdrożyć zgodę przed ich uruchomieniem.
+
+7. POPUP COOKIES (v7)
+- Informacyjny popup PL/EN jest obsługiwany przez /cookie-notice.js.
+- Popup informuje wyłącznie o niezbędnych cookies/technologiach; nie jest mechanizmem zgody marketingowej.
+- Po kliknięciu „Rozumiem” / „Got it” zapamiętuje zamknięcie lokalnie w przeglądarce (localStorage).
+- Link prowadzi do odpowiedniej polityki cookies PL/EN.
