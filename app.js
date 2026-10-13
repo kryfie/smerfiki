@@ -5,14 +5,17 @@ const iconMap = {
   sparkles: '/assets/smurfs/smerf4-nauka.png'
 };
 
+const isEnglish = document.documentElement.lang.toLowerCase().startsWith('en');
+const ui = isEnglish ? { call:'Call', soon:'new', plan:'View the new location plan →', visit:'View location →', locale:'en-GB' } : { call:'Zadzwoń', soon:'nowość', plan:'Zobacz plan nowej placówki →', visit:'Poznaj placówkę →', locale:'pl-PL' };
+
 const normalizePhone = (v) => `+48${String(v).replace(/\D/g, '')}`;
 const el = (id) => document.getElementById(id);
 
 async function loadContent() {
   try {
     const [siteRes, newsRes] = await Promise.all([
-      fetch('/content/site.json'),
-      fetch('/content/news.json')
+      fetch(isEnglish ? '/content/site-en.json' : '/content/site.json'),
+      fetch(isEnglish ? '/content/news-en.json' : '/content/news.json')
     ]);
     const site = await siteRes.json();
     const newsData = await newsRes.json();
@@ -33,7 +36,7 @@ async function loadContent() {
     const p2 = site.contact.phone2;
     const p1tel = normalizePhone(p1);
     const p2tel = normalizePhone(p2);
-    el('heroPhone').textContent = `Zadzwoń: ${p1}`;
+    el('heroPhone').textContent = `${ui.call}: ${p1}`;
     el('heroPhone').href = `tel:${p1tel}`;
     el('recruitPhone').textContent = p1;
     el('recruitPhone').href = `tel:${p1tel}`;
@@ -55,12 +58,12 @@ async function loadContent() {
 
     el('locationGrid').innerHTML = site.locations.map((l) => {
       const soon = l.status === 'soon';
-      const action = soon ? 'Zobacz plan nowej placówki →' : 'Poznaj placówkę →';
+      const action = soon ? ui.plan : ui.visit;
       return `
       <a class="location-card ${soon ? 'location-card--soon' : ''} reveal" href="${l.page}" aria-label="${action.replace(' →','')}: ${l.city}">
         <div class="location-topline">
           <span class="location-city">${l.badge || 'Placówka'}</span>
-          ${soon ? '<span class="location-pulse">nowość</span>' : '<span class="location-arrow" aria-hidden="true">↗</span>'}
+          ${soon ? `<span class="location-pulse">${ui.soon}</span>` : '<span class="location-arrow" aria-hidden="true">↗</span>'}
         </div>
         <div class="location-visual" aria-hidden="true">${l.image ? `<img src="${l.image}" alt="" loading="lazy">` : `<span>${l.city.charAt(0)}</span>`}</div>
         <h3>${l.city}</h3>
@@ -70,7 +73,7 @@ async function loadContent() {
       </a>`;
     }).join('');
 
-    const dateFormat = new Intl.DateTimeFormat('pl-PL', { day: '2-digit', month: 'long', year: 'numeric' });
+    const dateFormat = new Intl.DateTimeFormat(ui.locale, { day: '2-digit', month: 'long', year: 'numeric' });
     el('newsGrid').innerHTML = news.map((n) => `
       <article class="news-card reveal">
         <div class="news-art" aria-hidden="true"></div>
@@ -116,5 +119,6 @@ nav?.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => {
   navToggle?.setAttribute('aria-expanded', 'false');
 }));
 
-document.getElementById('year').textContent = new Date().getFullYear();
+const yearEl = document.getElementById('year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
 loadContent();

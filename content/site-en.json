@@ -1,0 +1,84 @@
+{
+  "brand": {
+    "name": "Smerfiki",
+    "eyebrow": "3 locations · Gdynia · Gdańsk · new location coming soon",
+    "tagline": "Welcome to Smerfiki Nursery",
+    "description": "Play. Learn. Grow.",
+    "announcement": "Smerfiki is growing — our third location is coming soon",
+    "taglineHtml": "Welcome to<br><em>Smerfiki Nursery</em>"
+  },
+  "contact": {
+    "phone1": "507 105 269",
+    "phone2": "696 416 666",
+    "email": "zlobeksmerfiki@wp.pl",
+    "recruitmentEmail": "zlobeksmerfiki@wp.pl",
+    "hours": "Pon.–Pt. 7:00–17:00",
+    "facebook": "https://www.facebook.com/profile.php?id=61565765199430"
+  },
+  "locations": [
+    {
+      "name": "Smerfiki Gdynia",
+      "city": "Gdynia",
+      "address": "Benisławskiego 12/1, 81-173 Gdynia",
+      "status": "open",
+      "badge": "Open location",
+      "description": "A welcoming Smerfiki nursery in Gdynia. Ask about available places and arrange a visit.",
+      "map": "https://www.google.com/maps/search/?api=1&query=Benis%C5%82awskiego+12%2F1+81-173+Gdynia",
+      "page": "/en/locations/gdynia/",
+      "image": "/assets/gallery/07-wejscie-zlobek.webp"
+    },
+    {
+      "name": "Smerfiki Gdańsk",
+      "city": "Gdańsk",
+      "address": "Przytulna 5, 80-176 Gdańsk",
+      "status": "open",
+      "badge": "Open location",
+      "description": "Smerfiki in Gdańsk — safe care, development and plenty of joyful play every day.",
+      "map": "https://www.google.com/maps/search/?api=1&query=Przytulna+5+80-176+Gda%C5%84sk",
+      "page": "/en/locations/gdansk/",
+      "image": "/assets/gallery/06-sala-smerfy.webp"
+    },
+    {
+      "name": "New Smerfiki location",
+      "city": "New location",
+      "address": "Location to be announced soon",
+      "status": "soon",
+      "badge": "Opening soon",
+      "description": "We are preparing our third location. Leave your contact details and we will let you know when the location and enrolment are announced.",
+      "map": "#contact",
+      "page": "/en/locations/new-location/",
+      "image": "/assets/gallery/09-sala-domki.webp"
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Safety",
+      "text": "Your child’s safety is our top priority. Our experienced and qualified team provides care to the highest standard. Regular training and ongoing attention help us create a safe, caring environment every day."
+    },
+    {
+      "icon": "apple",
+      "title": "Healthy Meals",
+      "text": "We focus on healthy meals prepared from high-quality ingredients that support children’s development. We make sure every meal is nutritious, tasty and suited to the needs of growing children."
+    },
+    {
+      "icon": "blocks",
+      "title": "Thoughtful Equipment",
+      "text": "Our nursery is comprehensively equipped by the renowned Haba Pro brand, known for modern ecological design, durable workmanship and a wide range of high-quality educational resources."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Learning Through Play",
+      "text": "Our activities combine learning and play, giving children joyful and developmental experiences. Creative sensory activities support motor, cognitive and social development in a friendly atmosphere."
+    }
+  ],
+  "about": {
+    "title": "Welcome to our nursery",
+    "text": "Welcome to our nursery — a place filled with joy, care and safe development. Our mission is to support every child on their unique journey, caring for their individual needs as well as their early social, emotional and cognitive development. Our team consists of qualified professionals who are passionate about working with young children. Through regular training and certification, we provide a high standard of care and safety so that parents can feel confident their child is in good hands. We create a warm and supportive atmosphere where children discover the world through play, creative activities and everyday challenges.",
+    "quote": "Welcome to Smerfiki — together we create a place where your child can feel at home!"
+  },
+  "recruitment": {
+    "title": "Looking for a place for your child?",
+    "text": "Choose a location and get in touch. We will answer questions about availability, settling-in, the daily routine and our new location."
+  }
+}

@@ -54,3 +54,45 @@ AKTUALIZACJA 13.10.2026 — v3
 - Dodano cztery grafiki Smerfów do sekcji „Oferujemy” na stronie głównej.
 - Grafiki znajdują się w assets/smurfs/.
 - Zachowano pastelowe tła kart i responsywny układ.
+
+
+7. RODO / PRYWATNOŚĆ (13.10.2026)
+- Formularze zawierają warstwową informację o prywatności i obowiązkowe potwierdzenie zapoznania się z Polityką prywatności (nie jest to zgoda marketingowa).
+- Polityka prywatności: /polityka-prywatnosci/ oraz /en/privacy-policy/.
+- Administrator wpisany w polityce: Firma Handlowo-Usługowa Wojciech Sekuła, ul. Wójta Radtkego 36/40, 81-355 Gdynia. POTWIERDŹ te dane z klientem przed produkcją.
+- Retencja wpisana w polityce: standardowo do 12 miesięcy dla zapytań bez umowy. Trzeba rzeczywiście regularnie usuwać stare zgłoszenia z Netlify Forms.
+- Formularz prosi, aby nie wysyłać PESEL ani danych o zdrowiu dziecka.
+- Usunięto zewnętrzne Google Fonts; obecna wersja nie ma analityki, reklam ani osadzonych map/social media, więc nie dodawano banera zgód cookies.
+
+8. WERSJA ANGIELSKA
+- Strona główna: /en/
+- Gdynia: /en/locations/gdynia/
+- Gdańsk: /en/locations/gdansk/
+- Nowa placówka: /en/locations/new-location/
+- Polityka prywatności: /en/privacy-policy/
+- Przełącznik PL/EN jest w nagłówkach.
+
+9. FORMULARZE
+- PL: kontakt, kontakt-gdynia, kontakt-gdansk, kontakt-nowa-placowka.
+- EN: contact-en oraz odpowiednie formularze oddziałów z sufiksem -en.
+- Po wysłaniu formularza użytkownik trafia na własną stronę podziękowania.
+- Netlify zaleca regularne zarządzanie i usuwanie zgłoszeń zawierających dane osobowe.
+
+
+AKTUALIZACJA v5 13.10.2026
+- Poprawiono sciezki CSS dla /en/ i wszystkich angielskich podstron.
+- Angielska wersja uzywa teraz wspolnego /styles.css tak jak polska.
+- Szary pasek/ikonka widoczna na Deploy Preview nie jest elementem strony ani cookies; to interfejs Netlify Deploy Preview (Drawer).
+- Na produkcyjnym adresie po merge do main Netlify Drawer nie jest czescia strony.
+
+
+AKTUALIZACJA 13.10.2026 — COOKIES
+- Dodano osobną Politykę cookies PL i Cookie Policy EN oraz linki w stopkach.
+- Nie dodano banera zgody cookies, ponieważ obecna wersja nie używa analityki, reklam, pikseli ani osadzonych usług wymagających zgody.
+- Jeśli później pojawi się Google Analytics, Meta Pixel, YouTube embed, osadzona mapa itp., należy wdrożyć zgodę przed ich uruchomieniem.
+
+7. POPUP COOKIES (v7)
+- Informacyjny popup PL/EN jest obsługiwany przez /cookie-notice.js.
+- Popup informuje wyłącznie o niezbędnych cookies/technologiach; nie jest mechanizmem zgody marketingowej.
+- Po kliknięciu „Rozumiem” / „Got it” zapamiętuje zamknięcie lokalnie w przeglądarce (localStorage).
+- Link prowadzi do odpowiedniej polityki cookies PL/EN.

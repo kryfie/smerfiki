@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "date": "2026-09-01",
+      "category": "Enrolment",
+      "title": "Enrolment is open",
+      "excerpt": "Parents are welcome to contact us about available places at our Gdynia and Gdańsk nurseries."
+    },
+    {
+      "date": "2026-08-20",
+      "category": "A day at Smerfiki",
+      "title": "There is always something to discover",
+      "excerpt": "Sensory play, movement, music and creative activities help build curiosity about the world."
+    },
+    {
+      "date": "2026-08-01",
+      "category": "For parents",
+      "title": "The first days at nursery",
+      "excerpt": "A calm settling-in period starts with relationships. Talk to us about helping your child feel comfortable in a new place."
+    }
+  ]
+}
