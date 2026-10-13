@@ -1,8 +1,8 @@
 const iconMap = {
-  shield: '♡',
-  apple: '●',
-  blocks: '▦',
-  sparkles: '✦'
+  shield: '/assets/smurfs/smerf1-bezpieczenstwo.png',
+  apple: '/assets/smurfs/smerf2-posilki.png',
+  blocks: '/assets/smurfs/smerf3-wyposazenie.png',
+  sparkles: '/assets/smurfs/smerf4-nauka.png'
 };
 
 const normalizePhone = (v) => `+48${String(v).replace(/\D/g, '')}`;
@@ -20,7 +20,7 @@ async function loadContent() {
 
     el('announcementText').textContent = site.brand.announcement;
     el('brandEyebrow').textContent = site.brand.eyebrow;
-    el('brandTagline').innerHTML = site.brand.tagline.replace('.', '.<br><em>') + '</em>';
+    el('brandTagline').innerHTML = site.brand.taglineHtml || site.brand.tagline;
     el('brandDescription').textContent = site.brand.description;
 
     el('aboutTitle').textContent = site.about.title;
@@ -48,7 +48,7 @@ async function loadContent() {
 
     el('featureGrid').innerHTML = site.features.map((f) => `
       <article class="feature-card reveal">
-        <div class="feature-icon" aria-hidden="true">${iconMap[f.icon] || '✦'}</div>
+        <div class="feature-icon" aria-hidden="true"><img src="${iconMap[f.icon] || iconMap.sparkles}" alt="" loading="lazy"></div>
         <h3>${f.title}</h3>
         <p>${f.text}</p>
       </article>`).join('');
@@ -62,7 +62,7 @@ async function loadContent() {
           <span class="location-city">${l.badge || 'Placówka'}</span>
           ${soon ? '<span class="location-pulse">nowość</span>' : '<span class="location-arrow" aria-hidden="true">↗</span>'}
         </div>
-        <div class="location-visual" aria-hidden="true"><span>${l.city.charAt(0)}</span></div>
+        <div class="location-visual" aria-hidden="true">${l.image ? `<img src="${l.image}" alt="" loading="lazy">` : `<span>${l.city.charAt(0)}</span>`}</div>
         <h3>${l.city}</h3>
         <p class="location-address">${l.address}</p>
         <p class="location-description">${l.description || ''}</p>

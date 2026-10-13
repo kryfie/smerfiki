@@ -2,16 +2,18 @@
   "brand": {
     "name": "Smerfiki",
     "eyebrow": "3 placówki · Gdynia · Gdańsk · wkrótce nowa lokalizacja",
-    "tagline": "Blisko dziecka. Blisko rodziny.",
-    "description": "Smerfiki to ciepłe, bezpieczne miejsca, w których najmłodsi poznają świat przez zabawę, relacje i codzienne odkrywanie. Dziś działamy w Gdyni i Gdańsku, a już wkrótce otwieramy trzecią placówkę.",
-    "announcement": "Smerfiki rosną — trzecia placówka już wkrótce"
+    "tagline": "Witaj w Żłobku Smerfiki",
+    "description": "Zabawa. Nauka. Dorastanie.",
+    "announcement": "Smerfiki rosną — trzecia placówka już wkrótce",
+    "taglineHtml": "Witaj w<br><em>Żłobku Smerfiki</em>"
   },
   "contact": {
     "phone1": "507 105 269",
     "phone2": "696 416 666",
     "email": "zlobeksmerfiki@wp.pl",
-    "recruitmentEmail": "rekrutacja@zlobeksmerfiki.pl",
-    "hours": "Pon.–Pt. 7:00–17:00"
+    "recruitmentEmail": "zlobeksmerfiki@wp.pl",
+    "hours": "Pon.–Pt. 7:00–17:00",
+    "facebook": "https://www.facebook.com/profile.php?id=61565765199430"
   },
   "locations": [
     {
@@ -22,7 +24,8 @@
       "badge": "Placówka działa",
       "description": "Kameralna placówka Smerfików w Gdyni. Zapytaj o dostępność miejsc i umów wizytę.",
       "map": "https://www.google.com/maps/search/?api=1&query=Benis%C5%82awskiego+12%2F1+81-173+Gdynia",
-      "page": "/placowki/gdynia/"
+      "page": "/placowki/gdynia/",
+      "image": "/assets/gallery/07-wejscie-zlobek.webp"
     },
     {
       "name": "Smerfiki Gdańsk",
@@ -32,7 +35,8 @@
       "badge": "Placówka działa",
       "description": "Smerfiki w Gdańsku — bezpieczna opieka, rozwój i codzienna dawka dobrej zabawy.",
       "map": "https://www.google.com/maps/search/?api=1&query=Przytulna+5+80-176+Gda%C5%84sk",
-      "page": "/placowki/gdansk/"
+      "page": "/placowki/gdansk/",
+      "image": "/assets/gallery/06-sala-smerfy.webp"
     },
     {
       "name": "Nowe Smerfiki",
@@ -42,35 +46,36 @@
       "badge": "Otwarcie wkrótce",
       "description": "Pracujemy nad otwarciem trzeciej placówki. Zostaw kontakt, a poinformujemy Cię o lokalizacji i rozpoczęciu zapisów.",
       "map": "#kontakt",
-      "page": "/placowki/nowa-placowka/"
+      "page": "/placowki/nowa-placowka/",
+      "image": "/assets/gallery/09-sala-domki.webp"
     }
   ],
   "features": [
     {
       "icon": "shield",
-      "title": "Bezpieczeństwo przede wszystkim",
-      "text": "Doświadczony zespół, regularne szkolenia i codzienna uważność na potrzeby najmłodszych."
+      "title": "Bezpieczeństwo",
+      "text": "Bezpieczeństwo Twojego dziecka jest dla nas najważniejsze! Nasz doświadczony, wykształcony zespół zapewnia opiekę na najwyższym poziomie. Regularne testy i szkolenia gwarantują, że każda chwila spędzona w naszym żłobku jest bezpieczna i pełna troski."
     },
     {
       "icon": "apple",
-      "title": "Zdrowe posiłki",
-      "text": "Dbamy o wartościowe, smaczne posiłki dopasowane do potrzeb rozwijających się dzieci."
+      "title": "Zdrowe Posiłki",
+      "text": "W naszym żłobku stawiamy na zdrowe posiłki, przygotowywane z najwyższej jakości produktów, które wspierają rozwój maluchów. Dbamy o to, aby każde danie było pełne wartości odżywczych, smaczne i dopasowane do potrzeb rosnących dzieci."
     },
     {
       "icon": "blocks",
-      "title": "Przemyślana przestrzeń",
-      "text": "Nowoczesne wyposażenie i pomoce dydaktyczne wspierają samodzielność, ruch i ciekawość świata."
+      "title": "Wyposażenie",
+      "text": "Nasza placówka została kompleksowo wyposażona przez renomowaną firmę Haba Pro, którą wyróżnia nowoczesny ekologiczny design, trwałe wykonanie oraz pełen wachlarz najnowocześniejszych pomocy dydaktycznych, spełniających najwyższe standardy."
     },
     {
       "icon": "sparkles",
-      "title": "Nauka przez zabawę",
-      "text": "Zabawy sensoryczne i twórcze aktywności wspierają rozwój motoryczny, poznawczy i społeczny."
+      "title": "Nauka i Zabawa",
+      "text": "Nasze zajęcia łączą naukę z zabawą, oferując maluchom radosne i rozwijające doświadczenia. Wprowadzamy dzieci w świat zmysłów dzięki kreatywnym zajęciom sensorycznym, które stymulują rozwój motoryczny i poznawczy w przyjaznej atmosferze."
     }
   ],
   "about": {
-    "title": "Jedna filozofia. Trzy miejsca blisko rodziny.",
-    "text": "Smerfiki rozwijają się razem z rodzinami, które nam zaufały. W każdej placówce chcemy zachować tę samą ciepłą atmosferę, wysokie standardy opieki i otwartą komunikację z rodzicami — niezależnie od lokalizacji.",
-    "quote": "Chcemy, by każde dziecko czuło się u nas bezpiecznie, zauważone i gotowe do odkrywania świata."
+    "title": "Witamy w naszym żłobku",
+    "text": "Witamy w naszym żłobku, miejscu pełnym radości, troski i bezpiecznego rozwoju! Naszą misją jest wspieranie każdego dziecka w jego unikalnej podróży, dbając zarówno o jego potrzeby, jak i wczesny rozwój społeczny, emocjonalny i poznawczy. Nasz zespół to wykwalifikowani specjaliści z pasją do pracy z najmłodszymi. Dzięki regularnym szkoleniom i certyfikacjom zapewniamy najwyższy standard opieki i bezpieczeństwa, tak by każdy rodzic miał pewność, że ich dziecko jest w najlepszych rękach. Tworzymy atmosferę pełną ciepła i wsparcia, gdzie dzieci odkrywają świat przez zabawę, twórcze zajęcia i codzienne wyzwania.",
+    "quote": "Zapraszamy do naszego żłobka – razem stworzymy przestrzeń, w której Twoje dziecko będzie czuło się jak w domu!"
   },
   "recruitment": {
     "title": "Szukasz miejsca dla swojego dziecka?",
