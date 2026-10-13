@@ -42,3 +42,9 @@ PODSTRONY PLACÓWEK
 /placowki/nowa-placowka/
 
 Kafle w sekcji Placówki na stronie głównej są w całości klikalne. W wersji produkcyjnej podstrony placówek będą generowane z danych Sanity (slug, opis, galeria, dane kontaktowe).
+
+
+AKTUALIZACJA 13.10.2026
+- Dodano prawdziwe zdjęcia placówek (assets/gallery, WebP).
+- Przywrócono teksty z poprzedniej strony Smerfików.
+- Dodano sekcję dofinansowania MALUCH+ oraz link Facebook.

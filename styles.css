@@ -160,3 +160,38 @@ h1 em:after { content:""; position:absolute; left:1%; right:2%; bottom:-7px; hei
 .branch-soon .branch-photo{background:linear-gradient(145deg,#fff3c5,#fffaf0 45%,#dcecff)}.branch-soon .branch-smile{color:#8b6500}.soon-note{background:#fff8dc;border:1px solid #f8df87;border-radius:18px;padding:18px 20px;color:#69510b;font-weight:700;margin:20px 0}
 @media(max-width:960px){.branch-hero__grid,.branch-intro,.branch-contact-card{grid-template-columns:1fr}.branch-photo{min-height:390px}.branch-facts__grid{grid-template-columns:1fr}.branch-fact{border-right:0;border-bottom:1px solid var(--line)}.branch-fact:last-child{border-bottom:0}.gallery-demo{grid-template-columns:1fr 1fr}.gallery-demo div:first-child{grid-row:auto;grid-column:1/-1}.other-branches{grid-template-columns:1fr}}
 @media(max-width:650px){.branch-hero{padding-top:40px}.branch-photo{min-height:320px}.gallery-demo{grid-template-columns:1fr;grid-template-rows:none}.gallery-demo div,.gallery-demo div:first-child{grid-column:auto;height:220px}.branch-contact-card{padding:28px 20px}.branch-facts{margin-top:-16px}}
+
+
+/* --- Smerfiki: zdjęcia, galeria i dofinansowanie --- */
+.hero-photo{position:relative;min-height:540px;border-radius:42px;overflow:hidden;box-shadow:var(--shadow);border:8px solid #fff;background:#eaf3ff}
+.hero-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(10,28,54,.52));pointer-events:none}
+.hero-photo__badge{position:absolute;z-index:2;left:24px;right:24px;bottom:24px;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-radius:18px;padding:15px 17px;box-shadow:0 12px 30px rgba(16,40,76,.18);display:grid;gap:3px}
+.hero-photo__badge strong{font:900 18px/1.15 "Nunito",sans-serif;color:var(--navy)}
+.hero-photo__badge span{font-size:11px;color:var(--muted)}
+.about-visual--photo{min-height:520px;border-radius:34px;overflow:hidden;box-shadow:var(--shadow);position:relative;background:#eaf3ff}
+.about-visual--photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.about-visual--photo .sticker{z-index:2;right:20px;bottom:20px;top:auto}
+.gallery-section{background:#fff}
+.gallery-real{display:grid;grid-template-columns:1.35fr 1fr 1fr;grid-auto-rows:215px;gap:14px}
+.gallery-real figure{margin:0;overflow:hidden;border-radius:22px;background:#edf3fb;box-shadow:0 10px 30px rgba(31,68,121,.08)}
+.gallery-real figure.gallery-real__wide{grid-row:span 2}
+.gallery-real img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+.gallery-real figure:hover img{transform:scale(1.025)}
+.location-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2}
+.location-visual:has(img):after{z-index:3;background:linear-gradient(180deg,transparent,rgba(20,48,85,.08));inset:0;width:auto;height:auto;right:0;bottom:0;border-radius:0}
+.branch-photo--image{overflow:hidden;background:#eaf3ff}
+.branch-photo--image:before,.branch-photo--image:after{display:none}
+.branch-photo--image>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+.branch-photo--image .branch-photo__label{z-index:3;background:rgba(255,255,255,.94);backdrop-filter:blur(10px)}
+.funding-section{padding-top:72px;padding-bottom:72px;background:linear-gradient(180deg,#fff,#f8fbff)}
+.funding-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:55px;align-items:center}
+.funding-copy h2{font-size:clamp(36px,4vw,54px);margin-top:10px}
+.funding-copy p{color:var(--muted);max-width:480px}
+.funding-card{display:block;background:#fff;border:1px solid var(--line);border-radius:24px;padding:18px;box-shadow:0 18px 50px rgba(31,68,121,.10);transition:.2s ease}
+.funding-card:hover{transform:translateY(-3px);box-shadow:0 24px 60px rgba(31,68,121,.14)}
+.funding-card img{width:100%;height:auto;border-radius:12px}
+.facebook-link b{color:#1877f2}
+.footer a[target="_blank"]{color:#dbe7ff}
+@media(max-width:960px){.hero-photo{min-height:480px}.funding-grid{grid-template-columns:1fr}.gallery-real{grid-template-columns:1fr 1fr}.gallery-real figure.gallery-real__wide{grid-column:1/-1;grid-row:auto;height:340px}}
+@media(max-width:650px){.hero-photo{min-height:390px;border-radius:28px}.about-visual--photo{min-height:390px}.gallery-real{grid-template-columns:1fr;grid-auto-rows:230px}.gallery-real figure.gallery-real__wide{grid-column:auto;height:260px}.funding-section{padding-top:56px;padding-bottom:56px}.funding-card{padding:10px;border-radius:18px}}
