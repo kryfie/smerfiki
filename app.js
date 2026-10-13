@@ -1,8 +1,8 @@
 const iconMap = {
-  shield: '♡',
-  apple: '●',
-  blocks: '▦',
-  sparkles: '✦'
+  shield: '/assets/smurfs/smerf1-bezpieczenstwo.png',
+  apple: '/assets/smurfs/smerf2-posilki.png',
+  blocks: '/assets/smurfs/smerf3-wyposazenie.png',
+  sparkles: '/assets/smurfs/smerf4-nauka.png'
 };
 
 const normalizePhone = (v) => `+48${String(v).replace(/\D/g, '')}`;
@@ -48,7 +48,7 @@ async function loadContent() {
 
     el('featureGrid').innerHTML = site.features.map((f) => `
       <article class="feature-card reveal">
-        <div class="feature-icon" aria-hidden="true">${iconMap[f.icon] || '✦'}</div>
+        <div class="feature-icon" aria-hidden="true"><img src="${iconMap[f.icon] || iconMap.sparkles}" alt="" loading="lazy"></div>
         <h3>${f.title}</h3>
         <p>${f.text}</p>
       </article>`).join('');
